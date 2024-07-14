@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Light gray background color */
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.add, .profile, .logout, .update, .exit, .view {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff; /* White background color */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Box shadow for a subtle 3D effect */
+    text-align: center;
+    display: inline-block;
+}
+
+.add img, .profile img, .logout img, .update img, .exit img, .view img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make the images circular */
+    margin-bottom: 10px;
+}
+
+.add h2, .profile h2, .logout h2, .update h2, .exit h2, .view h2 {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+}
+
+.add a, .profile a, .logout a, .update a, .exit a, .view a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+}
+.container > div {
+    width: 30%; /* Adjust width as needed */
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px; /* Add border radius */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a nice effect */
+}
+
+.container > div img {
+    width: 80%; /* Adjust image size */
+    border-radius: 50%; /* Optional: Round images */
+    margin-bottom: 10px;
+}

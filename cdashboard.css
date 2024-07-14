@@ -1,0 +1,17 @@
+/* Add this CSS to your dashboard.css file */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to fill the viewport vertically */
+}
+
+.container div {
+    flex: 1; /* Make all divs equal in size */
+    text-align: center;
+}
+
+.container img {
+    width: 100px; /* Adjust image width as needed */
+    height: 100px; /* Adjust image height as needed */
+}
